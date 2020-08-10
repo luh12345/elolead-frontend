@@ -25,7 +25,7 @@
         </v-list>
       </template>
     </v-navigation-drawer>
-    <v-app-bar fixed app>
+    <v-app-bar fixed app dark color="primary">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title v-text="title" />
       <v-spacer />
@@ -43,7 +43,7 @@
     <loading-bar />
 
     <!-- Footer -->
-    <v-footer app color="primary">
+    <v-footer app color="primary" dark>
       <span>&copy;Elogroup - Eloleads {{ new Date().getFullYear() }}</span>
     </v-footer>
   </v-app>
